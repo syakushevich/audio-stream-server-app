@@ -1,0 +1,19 @@
+{
+  "name": "audio-stream-websocket-server",
+  "version": "1.0.0",
+  "description": "WebSocket relay for audio stream app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js", // Important: Render uses this
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.17.1" // Use the latest version of ws
+  },
+  "engines": { // Optional: Specify Node version
+     "node": ">=22.5.0"
+  }
+}
