@@ -4,16 +4,16 @@
   "description": "WebSocket relay for audio stream app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js", // Important: Render uses this
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ws": "^8.17.1" // Use the latest version of ws
+    "ws": "^8.17.1"
   },
-  "engines": { // Optional: Specify Node version
-     "node": ">=22.5.0"
+  "engines": {
+     "node": ">=18.0.0"
   }
 }
